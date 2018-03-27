@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tsyhanko"]
   spec.email         = ["tsyhanko@fidor.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = 'Test'
+  spec.description   = 'Automation'
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -33,4 +33,31 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "activerecord"
+  spec.add_development_dependency "mysql2"
+  spec.add_development_dependency "allure-rspec"
+  spec.add_development_dependency "json"
+  spec.add_development_dependency "require_all"
+  spec.add_development_dependency "rest-client"
+  spec.add_development_dependency "rspec_junit_formatter"
+  spec.add_development_dependency "u2f"
+  spec.add_development_dependency "parallel"
+  spec.add_development_dependency 'waitutil', '~> 0.2.1'
+  spec.add_development_dependency 'nikkou'
+  spec.add_development_dependency 'celluloid'
+  spec.add_development_dependency 'celluloid-pmap'
+  spec.add_development_dependency 'parallel_tests'
+  spec.add_development_dependency 'retries'
+  spec.add_development_dependency 'concurrent-ruby'
+  spec.add_development_dependency 'progress_bar'
+  spec.add_development_dependency 'process_shared'
+  spec.add_development_dependency 'jira-ruby'
+  spec.add_development_dependency 'json_refs'
+  spec.add_development_dependency 'json-schema'
+  spec.add_development_dependency 'pry'
+  spec.add_development_dependency 'pdf-reader'
+  spec.add_development_dependency 'docker-api'
+  spec.add_development_dependency 'time_difference'
+  spec.add_development_dependency 'net-ssh-gateway'
+
 end
