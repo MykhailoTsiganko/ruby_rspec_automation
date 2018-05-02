@@ -59,5 +59,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'docker-api'
   spec.add_development_dependency 'time_difference'
   spec.add_development_dependency 'net-ssh-gateway'
-
+  spec.add_development_dependency 'selenium-webdriver'
 end

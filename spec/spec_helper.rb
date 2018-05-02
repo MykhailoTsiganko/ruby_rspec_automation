@@ -18,6 +18,7 @@ require 'parallel_tests'
 require 'process_shared'
 require 'jira-ruby'
 require 'pdf-reader'
+require 'selenium-webdriver'
 
 include AllureRubyAdaptorApi
 RSpec.configure do |config|
